@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+header {
+    width: 100%;
+    background-color: #F55A5A;
+    display: flex;  
+    justify-content: center;
+    height: 55px;
+    margin-bottom: 45px;
+}
+
+.title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14.4608px;
+    line-height: 18px;
+    letter-spacing: -0.075em;
+    align-self: center;
+    color: #FFFFFF;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    width: 470px;
+    height: fit-content;
+    margin-bottom: 36px;
+}
+
+
+.image{
+    width: 125px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    width: 326px;
+    padding-top: 10px;
+}
+
+.location {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 12px;
+    letter-spacing: 0.17em;
+}
+
+.marker {
+    color: red;
+}
+
+.map-link {
+    margin-left: 12px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 12px;
+    text-decoration-line: underline;
+    color: #918E9B;
+}
+
+.card--title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    color: #2B283A;
+}
+
+.dates {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10.24px;
+    line-height: 12px;
+    color: #2B283A;
+}
+
+.desc {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;  
+    color: #2B283A;
+}
